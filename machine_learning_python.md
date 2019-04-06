@@ -64,9 +64,9 @@ clf.fit(X,y)
 ### k nearest Neighbors in Sklearn
 ```python
 # Load the library
-from sklearn.neighbors import KNeighborsRegressor
+from sklearn.neighbors import KNeighborsClassifier
 # Create an instance
-regk = KNeighborsRegressor(n_neighbors=2)
+regk = KNeighborsClassifier(n_neighbors=2)
 # Fit the data
 regk.fit(X,y)
 ```
