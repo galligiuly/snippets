@@ -90,7 +90,7 @@ plt.plot(x_test, m.predict((x_test-x_train.mean())/x_train.std())*y_train.std()+
 
 𝑦=cos(𝑥)
 
-``python
+```python
 
 f = lambda x: cos(x)
 x_train = linspace(-2*np.pi, 1.5*np.pi,10000)
